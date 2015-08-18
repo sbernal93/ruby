@@ -23,7 +23,11 @@ default: &default
 
 development:
   <<: *default
-  database: ruby_development
+  #database: ruby_development
+  database: serviamigos
+  host: localhost
+  username: servdev
+  password: serviamigos123
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
